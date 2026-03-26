@@ -1,8 +1,6 @@
 # Apache Thrift Starter for Spring Boot
 
-> **This is a fork of [aatarasoff/spring-thrift-starter](https://github.com/aatarasoff/spring-thrift-starter) updated to support Spring Boot 3 and Java 17+.**
-
-[![Build Status](https://github.com/rpajaziti/spring-thrift-starter/actions/workflows/gradle.yml/badge.svg)](https://github.com/rpajaziti/spring-thrift-starter/actions/workflows/gradle.yml)
+[![Build Status](https://github.com/aatarasoff/spring-thrift-starter/actions/workflows/gradle.yml/badge.svg)](https://github.com/aatarasoff/spring-thrift-starter/actions/workflows/gradle.yml)
 
 Set of cool annotations that helps you building Thrift applications with Spring Boot.
 
@@ -21,7 +19,7 @@ Set of cool annotations that helps you building Thrift applications with Spring 
 repositories {
     ...
     maven {
-        url = uri("https://maven.pkg.github.com/rpajaziti/spring-thrift-starter")
+        url = uri("https://maven.pkg.github.com/aatarasoff/spring-thrift-starter")
         credentials {
             username = System.getenv("USERNAME")
             password = System.getenv("TOKEN")
